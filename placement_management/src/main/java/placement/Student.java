@@ -50,4 +50,11 @@ public class Student
 	public void setSt_gender(String st_gender) {
 		St_gender = st_gender;
 	}
+	@Override
+	public String toString() {
+		return "Student [St_id=" + St_id + ", St_name=" + St_name + ", St_mail=" + St_mail + ", St_gender=" + St_gender
+				+ "]";
+	}
+	
+	
 }
